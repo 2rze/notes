@@ -30,3 +30,6 @@ print("yah i like %s too!111" % response)
 
 age = input("How old are you little boye?")
 print("%s! That's really old. You belong in a retirement home." % age)
+
+def a():
+    
