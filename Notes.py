@@ -67,7 +67,7 @@ print(algebra_hw(5))
 print(algebra_hw(6))
 print(algebra_hw(7))
 """
-
+"""
 def grade_calculator(percentage):
     if percentage >= 90:
         return "A"
@@ -81,3 +81,35 @@ def grade_calculator(percentage):
         return "F"
 
 print (grade_calculator(40))
+"""
+
+
+def happy_bday(name):
+    print("Happy birthday, to you\nHappy birthday, to you\nHappy birthday, dear %s. Happy birthday, to you!" % name)
+
+
+bday_name = input("Enter a name : ")
+happy_bday(bday_name)
+
+#Loops xddddd
+
+for num in range(1):
+    print(num)
+
+a = "abcdefg"
+for i in a:
+    print(i)
+
+
+# While Loops
+
+living = True
+while living:
+    print("hi")
+    living = False
+
+
+#Random Numbers
+
+import random
+print(random.randint(0, 10))
